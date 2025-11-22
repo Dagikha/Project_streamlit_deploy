@@ -50,12 +50,12 @@ with col2:
     st.table(dict_menu)
     lst_mon_an = []
     Sum = 0
-    # for i in dict_menu:
-    #     Sum += dict_menu[i]
-    # Sum = f"{Sum:,}"
-    # st.subheader(f"Tổng tiền: {Sum} VND")
-    
     for i in dict_menu:
-        lst_mon_an.append(dict_menu[i])
+        Sum += dict_menu[i]
+    Sum = f"{Sum:,}"
+    st.subheader(f"Tổng tiền: {Sum} VND")
+    
+    # for i in dict_menu:
+    #     lst_mon_an.append(dict_menu[i])
 
 
