@@ -20,15 +20,15 @@ with col1:
     
 with col2:
     st.header("Người dùng mới")
-    st.metric("Doanh thu","12.5 M","+10%")
+    st.metric("New account","18","+10%")
     
 with col3:
     st.header("Đơn hàng")
-    st.metric("Doanh thu","327",delta="+11.5%")
+    st.metric("Packages","327",delta="+11.5%")
     
 with col4:
     st.header("Tiền chuyển đổi")
-    st.metric("Doanh thu",value="142",delta="-5%")
+    st.metric("Currency",value="142",delta="-5%")
     
 st.markdown("<hr/>",True)
 
